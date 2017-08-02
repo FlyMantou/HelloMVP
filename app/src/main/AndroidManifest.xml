@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lizhuorui.hellomvp">
+    package="com.myhuanghai.mvpdemo">
 
     <application
         android:name=".App"
@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HelloActivity">
+        <activity android:name=".module_home.ui.HelloActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

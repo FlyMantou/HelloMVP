@@ -1,4 +1,4 @@
-package lizhuorui.hellomvp;
+package com.myhuanghai.mvpdemo;
 
 import android.app.Application;
 

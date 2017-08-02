@@ -1,4 +1,4 @@
-package lizhuorui.hellomvp.base;
+package com.myhuanghai.mvpdemo.base;
 
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;

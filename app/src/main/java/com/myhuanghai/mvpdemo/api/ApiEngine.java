@@ -1,9 +1,9 @@
-package lizhuorui.hellomvp.api;
+package com.myhuanghai.mvpdemo.api;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import lizhuorui.hellomvp.App;
+import com.myhuanghai.mvpdemo.App;
 import okhttp3.Cache;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

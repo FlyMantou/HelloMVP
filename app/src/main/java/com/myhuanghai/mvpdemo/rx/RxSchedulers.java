@@ -1,4 +1,4 @@
-package lizhuorui.hellomvp.rx;
+package com.myhuanghai.mvpdemo.rx;
 
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;

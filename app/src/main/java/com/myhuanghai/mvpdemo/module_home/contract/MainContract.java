@@ -1,9 +1,10 @@
-package lizhuorui.hellomvp.mvp.contract;
+package com.myhuanghai.mvpdemo.module_home.contract;
 
-import lizhuorui.hellomvp.base.BaseModel;
-import lizhuorui.hellomvp.base.BasePresenter;
-import lizhuorui.hellomvp.base.BaseView;
-import lizhuorui.hellomvp.bean.Gank;
+import com.myhuanghai.mvpdemo.base.BaseModel;
+import com.myhuanghai.mvpdemo.base.BasePresenter;
+import com.myhuanghai.mvpdemo.base.BaseView;
+import com.myhuanghai.mvpdemo.module_home.bean.MyListBean;
+
 import rx.Observable;
 
 /**
@@ -15,7 +16,7 @@ public interface MainContract {
 
         void showDialog();
 
-        void onSucceed(Gank data);
+        void onSucceed(MyListBean data);
 
         void onFail(String err);
 
@@ -24,7 +25,7 @@ public interface MainContract {
     }
 
     interface Model extends BaseModel {
-        Observable<Gank> getGank();
+        Observable<MyListBean> getData();
     }
 
     abstract class Presenter extends BasePresenter<View, Model> {

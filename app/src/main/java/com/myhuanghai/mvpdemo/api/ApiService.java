@@ -1,6 +1,7 @@
-package lizhuorui.hellomvp.api;
+package com.myhuanghai.mvpdemo.api;
 
-import lizhuorui.hellomvp.bean.Gank;
+import com.myhuanghai.mvpdemo.module_home.bean.MyListBean;
+
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import rx.Observable;
@@ -13,9 +14,9 @@ import rx.Observable;
  */
 public interface ApiService {
 
-    String BASE_URL="http://gank.io/";
+    String BASE_URL="http://www.myhuanghai.com/tp5/public/index.php/";
 
-    @GET("api/data/Android/10/{page}")
-    Observable<Gank> getGank(@Path("page") String page);
+    @GET("unity")
+    Observable<MyListBean> getGank(@Path("page") String page);
 
 }

@@ -1,4 +1,4 @@
-package lizhuorui.hellomvp.util;
+package com.myhuanghai.mvpdemo.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

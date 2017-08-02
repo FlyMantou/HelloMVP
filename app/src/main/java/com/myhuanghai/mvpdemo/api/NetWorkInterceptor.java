@@ -1,9 +1,9 @@
-package lizhuorui.hellomvp.api;
+package com.myhuanghai.mvpdemo.api;
 
 import java.io.IOException;
 
-import lizhuorui.hellomvp.App;
-import lizhuorui.hellomvp.util.NetUtil;
+import com.myhuanghai.mvpdemo.App;
+import com.myhuanghai.mvpdemo.util.NetUtil;
 import okhttp3.CacheControl;
 import okhttp3.Interceptor;
 import okhttp3.Request;

@@ -1,4 +1,4 @@
-package lizhuorui.hellomvp.base;
+package com.myhuanghai.mvpdemo.base;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

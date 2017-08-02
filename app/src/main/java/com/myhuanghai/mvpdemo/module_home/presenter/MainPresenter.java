@@ -1,8 +1,8 @@
-package lizhuorui.hellomvp.mvp.presenter;
+package com.myhuanghai.mvpdemo.module_home.presenter;
 
-import lizhuorui.hellomvp.bean.Gank;
-import lizhuorui.hellomvp.mvp.contract.MainContract;
-import lizhuorui.hellomvp.mvp.model.MainModel;
+import com.myhuanghai.mvpdemo.module_home.bean.MyListBean;
+import com.myhuanghai.mvpdemo.module_home.contract.MainContract;
+import com.myhuanghai.mvpdemo.module_home.model.MainModel;
 import rx.Subscriber;
 import rx.Subscription;
 
@@ -20,8 +20,8 @@ public class MainPresenter extends MainContract.Presenter {
     @Override
     public void getGank() {
 
-        Subscription subscribe = mModel.getGank()
-                .subscribe(new Subscriber<Gank>() {
+        Subscription subscribe = mModel.getData()
+                .subscribe(new Subscriber<MyListBean>() {
 
                     @Override
                     public void onStart() {
@@ -40,8 +40,8 @@ public class MainPresenter extends MainContract.Presenter {
                     }
 
                     @Override
-                    public void onNext(Gank gank) {
-                        mView.onSucceed(gank);
+                    public void onNext(MyListBean data) {
+                        mView.onSucceed(data);
                     }
                 });
 
